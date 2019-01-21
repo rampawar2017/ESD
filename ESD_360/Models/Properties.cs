@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace ESD_360.Models
 {
+    //Class properties has connection with floor plan
     public class Properties
     {
         public int ID { get; set; }
