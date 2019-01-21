@@ -10,6 +10,7 @@ namespace ESD_360.Models
     {
         public string Description { get; set; }
         public string Floor { get; set; }
+        public object Image { get; set; }
 
         public ICollection<Floor_Plan> Floor_Plan { get; set; }
     }
